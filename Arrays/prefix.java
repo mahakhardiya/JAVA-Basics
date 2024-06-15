@@ -1,6 +1,5 @@
 public class prefix {
     public static void SubArray(int arr[]){
-        int sum = 0; 
         int currSum = 0;
         int maxSum = Integer.MIN_VALUE;
         int prefix[] = new int[arr.length];
