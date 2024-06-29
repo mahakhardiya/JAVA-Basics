@@ -23,7 +23,7 @@ public class stock {
         return maxProfit;
     }
     public static void main(String[] args) {
-        int prices[] = {7, 1, 5, 3, 6, 4}; //O(n)
+        int prices[] = {7, 1, 5, 3, 6}; //O(n)
         System.out.println(buyAndSellStocks(prices));    
     }
 }
