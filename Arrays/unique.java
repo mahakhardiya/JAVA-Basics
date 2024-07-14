@@ -19,14 +19,6 @@ public class unique {
 
         freq[count.length-1] = uniqueCount + 1;
 
-        // for (int i = 0; i < freq.length; i++) {
-        //     System.out.print(count[i]+ " ");
-        // }
-        // System.out.println(uniqueCount);
-        // for (int i = 0; i < freq.length; i++) {
-        //     System.out.print(freq[i]+ " ");
-        // }
-
         for(int i=0; i<freq.length-1; i++){
             for(int j=i+1; j<freq.length; j++){
                 if(freq[i] == freq[j] && freq[i] != 0){
