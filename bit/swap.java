@@ -1,4 +1,4 @@
-public class wap {
+public class swap {
     public static void main(String[] args) {
         int a = 3, b = 4;
         System.out.println("Before swapping: a=" +a+ " b=" +b);
