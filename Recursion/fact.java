@@ -3,8 +3,8 @@ public class fact {
         if(n==0){
             return 1;
         }
-        int fact = n*factorial(n-1);
-        return fact;
+        int factn = n*factorial(n-1);
+        return factn;
     }
     public static void main(String[] args) {
         System.out.println(factorial(5));
