@@ -1,4 +1,5 @@
 public class sorted {
+
     public static boolean checkSorted(int arr[], int i){
         if(i == arr.length-1)
         {
