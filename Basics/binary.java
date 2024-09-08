@@ -13,6 +13,6 @@ public class binary {
         System.out.println("The conversion of decimal " +myNum+ " to binary is " +binNum);
     } 
     public static void main(String[] args) {
-        decTobin(5);
+        decTobin(1);
     }
 }
