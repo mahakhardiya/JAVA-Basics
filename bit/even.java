@@ -11,9 +11,10 @@ public class even {
     }
     public static void main(String[] args) {
         int n;
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        n = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter a number: ");
+            n = sc.nextInt();
+        }
         oddOrEven(n);
     }
 }

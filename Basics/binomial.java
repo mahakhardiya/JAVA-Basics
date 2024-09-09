@@ -10,7 +10,7 @@ public class binomial {
         return f;
     }
 
-    public static int binomial(int n, int r){
+    public static int binomial1(int n, int r){
         int a = factorial(n);
         int b = factorial(r);
         int c = factorial(n-r); // nCr = n!/r! (n-r)!
@@ -22,12 +22,13 @@ public class binomial {
 
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter n:");
-        int n = sc.nextInt();
-        System.out.println("Enter r:");
-        int r = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter n:");
+            int n = sc.nextInt();
+            System.out.println("Enter r:");
+            int r = sc.nextInt();
 
-        System.out.print("Binomial coefficient is: " +binomial(n, r));
+            System.out.print("Binomial coefficient is: " +binomial1(n, r));
+        }
     }
 }

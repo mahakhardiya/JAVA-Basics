@@ -10,12 +10,12 @@ public class array {
     public static void main(String[] args) {
         int marks[] = new int[100];
 
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            marks[0] = sc.nextInt();
+            marks[1] = sc.nextInt();
+            marks[2] = sc.nextInt();
+        }
         
-        marks[0] = sc.nextInt();
-        marks[1] = sc.nextInt();
-        marks[2] = sc.nextInt();
-
         update(marks);
     }    
 }

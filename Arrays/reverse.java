@@ -1,5 +1,5 @@
 public class reverse {
-    public static void reverse(int arr[]){
+    public static void reverse1(int arr[]){
         for(int i=arr.length-1; i>=0; i--){
             System.out.print(arr[i]+ " ");
         }
@@ -12,6 +12,6 @@ public class reverse {
         }
         System.out.println("");
         System.out.println("After reverse");
-        reverse(numbers);
+        reverse1(numbers);
     }
 }

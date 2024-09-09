@@ -1,8 +1,8 @@
 public class square {
-    public static int square(int a){
+    public static int square1(int a){
         return a*a;
     }
     public static void main(String[] args) {
-        System.out.println(square(69));
+        System.out.println(square1(69));
     }
 }

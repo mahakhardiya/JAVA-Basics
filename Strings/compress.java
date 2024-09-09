@@ -1,5 +1,5 @@
 public class compress {
-    public static String compress(String str){
+    public static String compress1(String str){
         StringBuilder sb = new StringBuilder("");
 
         for(int i=0; i<str.length(); i++){
@@ -17,6 +17,6 @@ public class compress {
     }
     public static void main(String[] args) {
         String str = "aaabbbbcccddd";
-        System.out.println(compress(str));
+        System.out.println(compress1(str));
     }
 }
