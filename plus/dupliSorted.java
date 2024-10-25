@@ -1,4 +1,4 @@
-package library;
+package plus;
 public class dupliSorted {
     public static void main(String[] args) {
         int nums[] = new int[7];
